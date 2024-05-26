@@ -6,7 +6,7 @@ import useOnlineStatus from "./utils/useOnlineStatus";
 import { RES_LIST_URL } from "./utils/constants";
 import React from "react";
 const Body = () => {
-    const CORS_PROXY_URL = 'https://thingproxy.freeboard.io/fetch/';
+    const CORS_PROXY_URL = 'https://cors.bridged.cc/';
     let [restaurantList, setRestaurantList] = useState(null);
     const [loginbtn, setloginbtn] = useState("Login");
     const [searchText, setSearchText] = useState("");
